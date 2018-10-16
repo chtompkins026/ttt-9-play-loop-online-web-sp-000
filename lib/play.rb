@@ -38,15 +38,6 @@ end
 # Define your play method below
 
 def play(board)
- 
   puts 'turn'
     turn(board)
-  end
-  if winner(board)
-    puts "Congratulations!"
-  elsif draw?(board)
-    puts "Draw!"
-  else
-    return nil
-  end
 end
